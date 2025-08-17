@@ -1,0 +1,14 @@
+package com.scem.ecommerce.dao;
+
+import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.scem.ecommerce.entity.Product;
+import com.scem.ecommerce.entity.Review;
+import com.scem.ecommerce.entity.User;
+
+@Repository
+public interface ReviewRepository  extends JpaRepository<Review, Long>{
+	 List<Review> findByProduct(Product product);
+	 List<Review> findByUser(User user);
+}
