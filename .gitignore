@@ -1,0 +1,33 @@
+/.metadata/
+# macOS specific files
+.DS_Store
+
+# Java / Maven build outputs
+target/
+*.log
+*.war
+*.zip
+*.original
+
+# IDE specific files (if not already there)
+.project
+.classpath
+.settings/
+.factorypath
+
+# Other project folders (assuming these are separate projects/backups)
+DemoProject/
+ECommerceApplication-1/
+OnlineBookStore.zip
+OnlineBookStore/
+New/
+JUnit.zip
+SpringBoot/
+
+# Python specific (if you don't want to track it here)
+main.py
+folder_structure.md
+
+# Specific Readme.md inside ECommerceApplication if it's not the main one
+ECommerceApplication/Readme.md
+ECommerceApplication/Readme.txt
